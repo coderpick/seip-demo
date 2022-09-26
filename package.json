@@ -1,0 +1,21 @@
+{
+  "name": "day-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "postcss tailwind.css -o ./src/css/style.css --watch",
+    "build": "npx tailwindcss -i tailwind.css -o ./src/css/style.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "postcss-cli": "^10.0.0"
+  }
+}
